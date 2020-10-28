@@ -2,7 +2,15 @@
 
 // Complete this algo
 const binarySearch = (array, target) => {
-	
+	/*for (let i = 0; i < array.length; i++) {
+    let currElem = array[i];
+    if (currElem === target) {
+      console.log(currElem, target);
+      return true;
+    }
+  }
+  return false; */
+  return array.includes(target);
 };
 
 /*
